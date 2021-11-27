@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="StyleSheet" href="style.css">
+    <script  src="script.js"></script>
+</head>
+<body>
+    <div class="main-body">
+        <div class="cal">
+            <div class="output">
+                <input type="text" class="out" id="out">
+
+            </div>
+            <div class="row">
+                <button class="but" onclick="clearClick()">CE</button>
+            </div>
+            <div class="buttons">
+                <div class="row">
+                    <button onclick="clicks(7)" class="but">7</button>
+                    <button onclick="clicks(8)" class="but">8</button>
+                    <button onclick="clicks(9)" class="but">9</button>
+                    <button onclick="clicks('*')" class="but">X</button>
+                    
+                </div>
+                <div class="row">
+                    <button onclick="clicks(4)" class="but">4</button>
+                    <button onclick="clicks(5)" class="but">5</button>
+                    <button onclick="clicks(6)" class="but">6</button>
+                    <button onclick="clicks('/')" class="but">/</button>
+                    
+                </div>
+                <div class="row">
+                    <button onclick="clicks(1)" class="but">1</button>
+                    <button onclick="clicks(2)" class="but">2</button>
+                    <button onclick="clicks(3)" class="but">3</button>
+                    <button onclick="clicks('-')" class="but">-</button>
+                    
+                </div>
+                <div class="row">
+                    <button onclick="clicks('.')" class="but">.</button>
+                    <button onclick="clicks(0)" class="but">0</button>
+                    <button onclick="equalClick()" class="but">=</button>
+                    <button onclick="clicks('+')" class="but">+</button>
+                    
+                </div>
+
+            </div>
+            
+            
+        </div>
+    </div>
+    
+</body>
+</html>

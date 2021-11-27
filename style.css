@@ -1,0 +1,30 @@
+.cal{
+    width: 400px;
+    height: 600px;
+    background:rgb(141, 145, 143);
+    margin-left: 400px;
+    padding-top:8px;
+}
+
+.out{
+    width: 370px;
+    height:70px;
+    background:white;
+    margin-left:10px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top:5px;
+    font-size:25px
+}
+.row{
+    padding: 10px;
+}
+
+.but{
+width: 70px;
+height: 70px;
+background: white;
+margin-top: 6px;
+margin-left: 15px;
+
+}
